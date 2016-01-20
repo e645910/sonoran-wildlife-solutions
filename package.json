@@ -3,22 +3,33 @@
   "version": "1.0.0",
   "description": "wildlife education and control service",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Rick Wightman",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/e645910/sonoran-wildlife-solutions.git"
+
+  "engines": {
+    "node": "4.2.3"
   },
-  "keywords": [
+
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/e645910/sonoran-wildlife-solutions.git"
+    },
+
+"keywords": [
     "express",
     "node"
   ],
+
+  "author": "Rick Wightman",
+  "license": "MIT",
+  
+  
   "bugs": {
     "url": "https://github.com/e645910/sonoran-wildlife-solutions/issues"
   },

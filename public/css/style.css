@@ -1,0 +1,245 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 62.5%;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+/* =================================================================
+   Browser Upgrade Prompt
+   ============================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/* ================================================================
+   Author's custom styles
+   ============================================================== */
+
+.homePage {
+    width: 100%;
+    height: 100em;
+    border: 2px solid red;
+}
+.mainContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    color: #FFF;
+    background-size: cover;
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.logo {
+    position: relative;
+    top: 2%;
+    left: 2%;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 99;
+}
+.headerContainer {
+    position: relative;
+    top: 1%;
+    left: 65%;
+    border: 2px solid black;
+}
+.headerContainer ul li {
+    padding: 3%;
+    display: inline;
+    list-style-type: none;
+    border: 2px solid red;
+}
+.headerNavagation::after {
+    position: relative;
+    top: 0.3em;
+    border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.5em;
+    left: 0.6em;
+    transform: rotate(135deg);
+    vertical-align: top;
+    width: 0.45em;
+}
+.titleContainer {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    height: 30%;
+    /*border: 2px solid green;*/
+}
+.titleContainer span {
+    position: relative;
+    top: 10%;
+    left: 43%;
+    font-family: serif;
+    font-size: 1.5em;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 100;
+    letter-spacing: .5em;
+    /*border: 2px solid red;*/
+}
+.titleContainer p {
+    position: absolute;
+    top: 9%;
+    left: 30%;
+    width: 60%;
+    font-family: 'Lucida Bright';
+    font-size: 4em;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: normal;
+    line-height: 33px;
+    /*border: 2px solid red;*/
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    
+    display: table;
+    /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    .logo {
+        width: 15%;
+        height: 15%;
+    }
+    .headerContainer {
+        width: 20%;
+        height: 8%;
+    }
+}

@@ -9,6 +9,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Rick Wightman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e645910/sonoran-wildlife-solutions.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/e645910/sonoran-wildlife-solutions/issues"
+  },
+  "homepage": "https://github.com/e645910/sonoran-wildlife-solutions#readme"
 }

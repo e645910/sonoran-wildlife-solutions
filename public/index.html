@@ -1,63 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>sonoranwildlifesolutions</title>
 
-        <meta name="description" content="Don Carter &bull; Education &bull; Animal Removal &bull; Snakes &bull; Training &bull; Animal Control"/>
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
- 
-        <meta http-equiv="cleartype" content="on">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <title>sonoranwildlifesolutions</title>
 
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
-        <link rel="shortcut icon" sizes="196x196" href="img/touch/touch-icon-196x196.png">
-        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+    <meta name="description" content="Don Carter &bull; Education &bull; Animal Removal &bull; Snakes &bull; Training &bull; Animal Control" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
 
-        <!-- Tile icon for Win8 (144x144 + tile color) -->
-        <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
-        <meta name="msapplication-TileColor" content="#222222">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- google-site-verification -->
-        <meta name="google-site-verification" content="zhyRfkZDu_Vn5xrJvjmbSieoD42tIE3utS_5vp-n7nI" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon" sizes="196x196" href="img/touch/touch-icon-196x196.png">
+    <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
 
-        <!-- SEO: If mobile URL is different from desktop URL, add a canonical link to the desktop page -->
-        <link rel="canonical" href="http://www.example.com/" >
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#222222">
 
-        <!-- Add to homescreen for Chrome on Android -->  
-        <meta name="mobile-web-app-capable" content="yes">
+    <!-- google-site-verification -->
+    <meta name="google-site-verification" content="zhyRfkZDu_Vn5xrJvjmbSieoD42tIE3utS_5vp-n7nI" />
+
+    <!-- SEO: If mobile URL is different from desktop URL, add a canonical link to the desktop page -->
+    <link rel="canonical" href="http://www.example.com/">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
 
 
-        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
-        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+    <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+    <script>
+        (function(a, b, c) {
+            if (c in b && b[c]) {
+                var d, e = a.location,
+                    f = /^(a|html)$/i;
+                a.addEventListener("click", function(a) {
+                    d = a.target;
+                    while (!f.test(d.nodeName)) d = d.parentNode;
+                    "href" in d && (d.href.indexOf("http") || ~d.href.indexOf(e.host)) && (a.preventDefault(), e.href = d.href)
+                }, !1)
+            }
+        })(document, window.navigator, "standalone")
+    </script>
 
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/mobile.css"/>
-        
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
 
-         <!--[if lt IE 8]>
+
+    <!--[if lt IE 8]>
                 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
-    </head>
-    <body class="homePage">
-        <div class="logo"></div>
+</head>
 
-        <div class="mainContainer">
-            <div class="headerContainer">
+<body>
+    <div class="container">
+        <div class="mainImage">
+            <img src="./img/main.jpg" width="3872" height="2592">
+            <div class="logo">
+                <img src="./img/logo.png">
+            </div>
+            <div class="pageHeader">
                 <ul class="headerNavagation">
                     <li class="menuItem">Education</li>
                     <li class="menuItem">Animal Removal</li>
                     <li class="menuItem">Guided Hikes</li>
                 </ul>
             </div>
-            <div class="titleContainer">
-                <span>SONORAN WILDLIFE SOLUTIONS</span>
-                <p>We are dedicated to solving urban wildlife conflicts in the Tucson area through mitigation and education.</p>
+        </div>
+
+        <div class="visionContainer">
+            <label>SONORAN WILDLIFE SOLUTIONS</label>
+            <p>We are dedicated to solving urban wildlife conflicts in the Tucson area through mitigation and <span>education</span>.</p>
+        </div>
+
+        <div class="bannerContainer">
+            <p>Licensed &nbsp;&nbsp;&bull;&nbsp;&nbsp; Training &nbsp;&nbsp;&bull;&nbsp;&nbsp; Sonoran Desert &nbsp;&nbsp;&bull;&nbsp;&nbsp; Animal Removal &nbsp;&nbsp;&bull;&nbsp;&nbsp; Local Hikes</p>
+        </div>
+
+        <div class="heroContainer">
+            <img src="./img/don-main.jpg"/>
+            <div class="sideImage">
+                <!-- <img src="./img/scenicMtn1.jpg" /> -->
+                <label>Meet Don Carter...</label>
+                <p>... a wildlife expert who graduated from the University of Arizona (1998) with a degree in wildlife ecology. Don has spent many years protecting Pima County's natural resources, parks, and preserves as a Ranger, Natural Resource Specialist, and Park Manager. He has a lifetime of hands-on experience working with the animals of our beautiful Sonoran Desert, and is capable and uniquely qualified to handle whatever wildlife concerns you may have.
+                    <br>
+                    <br><span>LICENSED BY ARIZONA GAME AND FISH</span>
+                </p>
+
+                <div class="heroAddress">
+                    <!--    <p><span>Sonoran Wildlife Solutions</span> 520-229-7976 <span>sonoranwildlifesolutions@gmail.com</span></p> -->
+                </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

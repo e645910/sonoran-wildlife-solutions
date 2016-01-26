@@ -6,7 +6,7 @@
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.mainContainer {
+	.mainImage {
 	    position: absolute;
 	    top: 0;
 	    left: 0;

@@ -15,12 +15,6 @@ input,
 select,
 textarea {
     color: #222;
-    height: 100%;
-    width: 100%;
-}
-body {
-    font-size: 62.5%;
-    line-height: 1.4;
 }
 a {
     color: #00e;
@@ -37,6 +31,8 @@ a:hover {
 
 img {
     vertical-align: middle;
+    width: 100%;
+    height: auto;
 }
 /*
  * Remove default fieldset styles.
@@ -67,74 +63,89 @@ textarea {
 /* ================================================================
    Author's custom styles
    ============================================================== */
-
-.homePage {
+body {
     width: 100%;
-    height: 100%;
+    height: 100em;
+    font-size: 62.5%;
+    line-height: 1.4;
 }
-.mainContainer {
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;  
+}
+.mainImage img {
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background: url('../img/main.jpg') no-repeat;
+    height: 80%;
+    z-index: 0;
+}
+.logo img {
+    position: absolute;
+    top: 1.5%;
+    left: 1.5%;
+    width: 8%;
+    height: auto;
+    /*background: url('../img/logo1.png') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
+    z-index: 99;
 }
-.logo {
-    position: relative;
-    width: 15%;
-    height: 20%;
-    background: url('../img/logo.png') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100%;
-    z-index: 1;
-}
-.headerContainer {
-    position: relative;
-    top: 1%;
-    left: 65%;
-    width: 20%;
+.pageHeader {
+    position: absolute;
+    top: 3%;
+    left: 60%;
+    width: 35%;
     height: 8%;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
-.headerContainer ul li {
-    padding: 3%;
+.pageHeader ul, li {
     display: inline;
     list-style-type: none;
-    border: 2px solid red;
+    padding-right: 5%;
 }
-.headerNavagation::after {
+.menuItem {
     position: relative;
-    top: 0.3em;
+    top: 20%;
+    width: 30%;
+    height: 15%;
+    font-family: serif;
+    font-size: 2em;
+    font-style: normal;
+    color: #FF0000;
+    font-variant: small-caps;
+    font-weight: bold;
+    /*border: 2px solid red;*/
+}
+.menuItem::after {
+    position: relative;
+    top: 0.4em;
     border-style: solid;
-    border-width: 0.15em 0.15em 0 0;
+    border-width: 0.1em 0.1em 0 0;
     content: '';
     display: inline-block;
-    height: 0.5em;
-    left: 0.6em;
+    height: 0.3em;
+    left: 0.4em;
     transform: rotate(135deg);
     vertical-align: top;
-    width: 0.45em;
+    width: 0.3em;
 }
-.titleContainer {
+.visionContainer {
     position: relative;
-    top: 10%;
+    top: 15%;
     width: 100%;
     height: 30%;
+    color: #FFF;
     /*border: 2px solid green;*/
 }
-.titleContainer span {
+.visionContainer label {
     position: relative;
     top: 10%;
     left: 43%;
     font-family: serif;
-    color: #FFF;
     font-size: 1.5em;
     font-style: italic;
     font-variant: small-caps;
@@ -142,20 +153,104 @@ textarea {
     letter-spacing: .5em;
     /*border: 2px solid red;*/
 }
-.titleContainer p {
+.visionContainer p {
     position: absolute;
     top: 9%;
     left: 30%;
     width: 60%;
     font-family: 'Lucida Bright';
-    color: #FFF;
     font-size: 4em;
     font-style: normal;
     font-variant: small-caps;
     font-weight: normal;
-    line-height: 33px;
+    line-height: 1.1em;
     /*border: 2px solid red;*/
 }
+.visionContainer span {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.bannerContainer {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: #F8F3E9;
+    z-index: 5;
+    /*border:2px solid red;*/
+}
+.bannerContainer p{
+    font-family: 'Lucida Bright', Georgia, serif;
+    font-size: 2em;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-align: center;
+    padding: 1%;
+}
+.heroContainer {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: 30%;
+    font-family: serif;
+    font-variant: small-caps;
+    color: #FFF;
+    border: 2px solid black;
+}
+.heroContainer img {
+    width: 30.7%;
+}
+.sideImage {
+    position: absolute;
+    top: 0;
+    left: 30.7%;
+    width: 70%;
+    height: 100%;
+}
+.sideImage {
+    background: url('../img/scenicMtn.jpg') no-repeat;
+    opacity: 0.6;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.heroContainer label {
+    position: absolute;
+    top: 3%;
+    left: 35%;
+    font-size: 2em;
+}
+.heroContainer p {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 55%;
+    height: 30%;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    /*border: 2px solid black;*/
+}
+.heroContainer span {
+    display: block;
+    text-align: center;
+    font-size: .8em;
+    font-style: normal;
+}
+.heroAddress {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 25%;
+    width: 25%;
+    border: 2px solid green;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -226,3 +321,34 @@ textarea {
 .clearfix:after {
     clear: both;
 }
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+/*@media only screen and (min-width: 800px) {*/
+    /* Style adjustments for viewports that meet the condition */
+/*}*/
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {*/
+    /* Style adjustments for viewports that meet the condition */
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

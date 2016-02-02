@@ -79,7 +79,7 @@ section {
     width: 30%;
     height: 15%;
     font: small-caps bold 2em 'Lucida Bright', Georgia, serif;
-    color: #00FF00;
+    color: #f88017;
     /*border: 2px solid red;*/
 }
 
@@ -157,7 +157,7 @@ section {
     bottom: 45%;
     left: 50%;
     width: 2%;
-    color: #00FF00; 
+    color: #f88017; 
 }
 
 .cheveron-down::before {

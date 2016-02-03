@@ -214,6 +214,124 @@ img {
         right: 2%;
         padding-top: .2em;
         z-index: 2;
+        width: 49%;
+        height: 8%;
+        /*border: 2px solid black;*/
+    }
+    .page-header li {
+        position: relative;
+        padding: 0 .7em 0 .4em;
+        display: inline;
+        list-style-type: none;
+        /*border: 2px solid red;*/
+    }
+    /* -------- navigation ---------- */
+    .menu-item {
+        width: 30%;
+        height: 15%;
+        font-size: 1.5em;
+        color: #f88017;
+        /*border: 2px solid red;*/
+    }
+    .menu-item::after {
+        position: relative;
+        top: .4em;
+        left: .4em;
+        width: .3em;
+        height: .3em;
+        border-width: .1em .1em 0 0;
+        content: '';
+        border-style: solid;
+        display: inline-block;
+        transform: rotate(135deg);
+        vertical-align: top;
+    }
+    /* -------- vision statement ---------- */
+    .vision {
+        position: absolute;
+        top: 13%;
+        width: 100%;
+        height: 25%;
+        font-size: 25px;
+        color: #fff;
+    }
+    .vision label {
+        margin-left: 35%;
+        letter-spacing: 10px;
+        /*border: 2px solid black;*/
+    }
+    .vision p {
+        margin-left: 25%;
+        width: 68%;
+        height: 30%;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .vision span {
+        font-weight: bold;
+    }
+    .vision-part2 {
+        font-size: 20px !important;
+    }
+    /* -------- bullet banner ---------- */
+    .banner-container {
+        position: absolute;
+        top: 90%;
+        width: 100%;
+        height: 9%;
+        z-index: 10;
+        /*border: 2px solid red;*/
+    }
+    .banner-container p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .down-arrow {
+        margin; auto;
+        width: 2%;
+        color: #f88017;
+        /*border: 2px solid red;*/
+    }
+    .cheveron-down::before {
+        position: relative;
+        top: .3em;
+        left: .3em;
+        width: .8em;
+        height: .8em;
+        vertical-align: top;
+        border-width: .2em .2em 0 0;
+        border-style: solid;
+        display: inline-block;
+        content: '';
+        transform: rotate(135deg);
+    }
+    /* ------ Owner introduction --------*/
+    .hero-container {
+        position: absolute;
+        top: 99.9%;
+        width: 100%;
+        height: 50%;
+        /*border: 2px solid red;*/
+    }
+    .landscape {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* ----------- Retina Screens ----------- */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+
+ /* -------- header ---------- */
+    .page-header {
+        position: absolute;
+        top: 1%;
+        right: 2%;
+        padding-top: .2em;
+        z-index: 2;
         width: 45%;
         height: 8%;
         /*border: 2px solid black;*/
@@ -278,7 +396,7 @@ img {
         position: absolute;
         top: 90%;
         width: 100%;
-        height: 10%;
+        height: 9%;
         z-index: 10;
         /*border: 2px solid red;*/
     }
@@ -287,17 +405,14 @@ img {
         text-align: center;
     }
     .down-arrow {
-        position: relative;
-        bottom: 30%;
-        left: 50%;
+        margin: auto;
         width: 4%;
-        padding-top: .5em;
         color: #f88017;
         /*border: 2px solid red;*/
     }
     .cheveron-down::before {
         position: relative;
-        top: .1em;
+        top: .4em;
         left: .3em;
         width: .8em;
         height: .8em;
@@ -323,7 +438,3 @@ img {
     }
 }
 
-
-/* ----------- Retina Screens ----------- */
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}

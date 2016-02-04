@@ -104,7 +104,7 @@ a {
     vertical-align: top;
 }
 
-.menu-item a:hover {
+.menu-item:hover {
     color: #fff;
     background: #939393;
 }

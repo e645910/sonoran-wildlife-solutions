@@ -1,1 +1,1 @@
-Sonoran Wildlife Solutions is a wildlife control and education service in Catalina Arizona. HTML mobile boilerplate was used to save time reinventing the wheel to allow this app to run this app on mobile phones.
+Sonoran Wildlife Solutions is a wildlife control and education service in Catalina Arizona.

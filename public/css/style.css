@@ -219,13 +219,46 @@ ul li ul.dropdown li {
     top: 99.9%;
     width: 100%;
     height: 50%;
-    /*border: 2px solid red;*/
+    border: 2px solid red;
 }
 
-.landscape {
+/*.landscape {
     display: block;
     max-width: 100%;
     height: auto;
+}*/
+
+.slider {
+    position: relative;
+    /*left: 0;*/
+    width: 42%;
+    height: 200px;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 15px #999;
+}
+
+.slide.ng-hide-add,
+.slide.ng-hide-remove {
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    display: block!important;
+}
+
+.slide.ng-hide-add.ng-hide-add-active,
+.slide.ng-hide-remove {
+    opacity: 0;
+}
+
+.slide.ng-hide-add,
+.slide.ng-hide-remove.ng-hide-remove-active {
+    opacity: 1;
 }
 
 

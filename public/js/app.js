@@ -1,4 +1,4 @@
-angular.module('sws', ['ngRoute'])
+angular.module('sws', ['ngRoute', 'ngAnimate'])
     .config(function($routeProvider) {
         $routeProvider
             .when('/', {

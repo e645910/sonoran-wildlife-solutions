@@ -1,6 +1,5 @@
 <div>
     <div class="main-image">
-        <img src="./img/main.jpg" alt="desert view" width="1345" height="900">
         <div class="logo">
             <img src="./img/logo.png" alt="company brand">
         </div>
@@ -41,6 +40,7 @@
         <p>
             We are dedicated to solving urban wildlife conflicts in the Tucson area through intervention and <span>education</span>.
         </p>
+        <br>
         <p class="vision-part2">
             We are not a pest control company nor do we use chemicals or poisons to eliminate animals. We are committed to providing education and humane animal control to ensure the safety of both animals and humans alike.
         </p>
@@ -55,8 +55,19 @@
     </div>
 </div>
 <div class="hero-container">
-
-    <slider images="images" />
-
-    <!-- <img src="img/heroImage.jpg" width="1298" height="318" class="landscape" alt="hero image" /> -->
+    <div class="image-wrapper1">
+        <uib-carousel interval="myInterval">
+            <uib-slide ng-repeat="slide in slides">
+                <img ng-src="{{slide.image}}">
+            </uib-slide>
+        </uib-carousel>
+    </div>
+    <div class="image-wrapper2">
+        <h3>Meet Don Carter...</h3>
+        <p>... a wildlife expert who graduated from the University of Arizona with a degree in wildlife ecology. Don has spent many years protecting Pima County's natural resources, parks, and preserves as a Ranger, Natural Resource Specialist, and Park Manager. He has a lifetime of hands-on experience working with the diverse animals of our beautiful Sonoran Desert, and is uniquely qualified to handle whatever wildlife concerns you may have.</p>
+        <p>Sonoran Wildlife Solutions</p>
+        <p>520-229-7976</p>
+        <p>sonoranwildlifesolutions@gmail.com</p>
+        <p>LICENSED BY ARIZONA GAME AND FISH</p>
+    </div>
 </div>

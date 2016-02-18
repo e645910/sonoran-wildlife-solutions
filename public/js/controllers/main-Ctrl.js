@@ -1,19 +1,12 @@
 angular.module('sws')
     .controller('mainController', function($scope) {
-        $scope.images = [{
-            src: 'don1.jpg',
-            title: 'Pic 1'
-        }, {
-            src: 'don2.jpg',
-            title: 'Pic 2'
-        }, {
-            src: 'don3.jpg',
-            title: 'Pic 3'
-        }, {
-            src: 'don4.jpg',
-            title: 'Pic 4'
-        }, {
-            src: 'don5.jpg',
-            title: 'Pic 5'
-        }];
+        $scope.myInterval = 5000;
+        $scope.slides = [
+        {image: '/img/don1.jpg'},
+        {image: '/img/don2.jpg'},
+        {image: '/img/don3.jpg'},
+        {image: '/img/don4.jpg'},
+        {image: '/img/don5.jpg'},
+        {image: '/img/don6.jpg'}
+        ];
     });

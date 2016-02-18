@@ -1,5 +1,9 @@
 html {
-  font: small-caps 100% 'Lucida Bright', Georgia, serif;
+    font: small-caps 100% 'Lucida Bright', Georgia, serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    *behavior: url('css/assets/boxsizing.htc');
 }
 
 body {
@@ -83,7 +87,7 @@ a {
 .menu-item {
     width: 35%;
     height: 15%;
-    font-size: 1.5em;
+    font-size: 20px;
     color: #f88017;
     /*border: 2px solid red;*/
 }
@@ -208,6 +212,7 @@ ul li ul.dropdown li {
     transform: rotate(135deg);
 }
 
+
 /* ------ Owner --------*/
 
 .hero-container {
@@ -215,11 +220,10 @@ ul li ul.dropdown li {
     top: 99.9%;
     width: 100%;
     height: 400px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     /*border: 2px solid red;*/
 }
+
+
 /* ------ Slide Carousel ------------ */
 
 .image-wrapper1 {
@@ -234,11 +238,13 @@ ul li ul.dropdown li {
     width: auto;
 }
 
+
 /* Carousel base class */
 
 .carousel {
     height: 400px;
 }
+
 
 /* Declare heights because of positioning of img element */
 
@@ -254,6 +260,7 @@ ul li ul.dropdown li {
     min-width: 100%;
     height: 500px;
 }
+
 
 /* ------ About ----------------- */
 
@@ -273,26 +280,18 @@ ul li ul.dropdown li {
 }
 
 .image-wrapper2 p {
-    
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 14px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.image-wrapper2 scan {
+    float: right;
+    padding-top: 3%;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 14px;
+}

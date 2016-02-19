@@ -65,16 +65,17 @@ a {
 .page-header {
     position: absolute;
     top: 1%;
-    right: 2%;
+    right: 3%; /*use 3% for laptop*/
     z-index: 5;
-    width: 40%;
+    width: 50%; /*use 40% for laptop*/
     height: 8%;
-    padding-top: .2em;
+    padding: 1em 2em 0 0;
     /*border: 2px solid black;*/
 }
 
 .page-header li {
     position: relative;
+    left: 0;
     display: inline;
     padding: 0 .7em 0 .4em;
     list-style-type: none;

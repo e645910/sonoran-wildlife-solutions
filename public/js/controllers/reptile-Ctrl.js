@@ -1,5 +1,5 @@
 angular.module('sws')
-    .controller('animalRemovalController', function($scope, $location) {
+    .controller('reptileRemovalController', function($scope, $location) {
         $scope.isCurrentPath = function(path) {
             return $location.path == path;
         };

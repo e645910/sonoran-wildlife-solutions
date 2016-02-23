@@ -5,9 +5,9 @@ angular.module('sws', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
                 templateUrl: 'views/main-view.html',
                 controller: 'mainController'
             })
-            .when('/animal', {
+            .when('/reptiles', {
                 templateUrl: 'views/reptile-removal-view.html',
-                controller: 'reptileRemovalController'
+                controller: 'reptileController'
             })
             .when('/education', {
                 templateUrl: 'views/education-view.html',

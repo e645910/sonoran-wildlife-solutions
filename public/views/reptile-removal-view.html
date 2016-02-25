@@ -1,26 +1,29 @@
-<div class="reptile-image">
-    <uib-carousel interval="myInterval">
-        <uib-slide ng-repeat="slide in slides">
-            <img class="img-responsive" ng-src="{{slide.image}}" height="1400" width="1002" alt="reptile-images">
-        </uib-slide>
-    </uib-carousel>
-</div>
-<div class="banner-container">
-    <p>Snakes &nbsp;&nbsp;&bull;&nbsp;&nbsp; Lizards &nbsp;&nbsp;&bull;&nbsp;&nbsp; Gila Monsters &nbsp;&nbsp;&bull;&nbsp;&nbsp; Toads</p>
-    <div class="traveler">
-        <div class="bouncer">
-            <!-- -->
-        </div>
-        <div class="scroll-text">
-            <p>SCROLL FOR MORE</p>
+<div class="reptile-container">
+    <div class="reptile-image">
+        <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+            <uib-slide ng-repeat="slide in slides" active="slide.active">
+                <img class="img-responsive" ng-src="{{slide.image}}">
+            </uib-slide>
+        </uib-carousel>
+        <a href="#/views/main-view.html" class="btn btn-primary">Home</a>
+    </div>
+    <div class="banner-container ">
+        <p>Snakes &nbsp;&nbsp;&bull;&nbsp;&nbsp; Lizards &nbsp;&nbsp;&bull;&nbsp;&nbsp; Gila Monsters &nbsp;&nbsp;&bull;&nbsp;&nbsp; Toads</p>
+        <div class="traveler ">
+            <div class="bouncer ">
+                <!-- -->
+            </div>
+            <div class="scroll-text ">
+                <p>SCROLL FOR MORE</p>
+            </div>
         </div>
     </div>
-</div>
-<div class="hero-container">
-    <div class="image-wrapper2">
-        <p>Sonoran Wildlife Solutions</p>
-        <p>520-229-7976</p>
-        <p>sonoranwildlifesolutions@gmail.com</p>
-        <scan>LICENSED BY ARIZONA GAME AND FISH</scan>
+    <div class="hero-container ">
+        <div class="image-wrapper2 ">
+            <p>Sonoran Wildlife Solutions</p>
+            <p>520-229-7976</p>
+            <p>sonoranwildlifesolutions@gmail.com</p>
+            <scan>LICENSED BY ARIZONA GAME AND FISH</scan>
+        </div>
     </div>
 </div>

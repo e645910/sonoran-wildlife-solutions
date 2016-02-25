@@ -4,11 +4,10 @@ angular.module('sws')
         $scope.w = window.innerWidth;
         $scope.h = window.innerHeight - 80;
         $scope.slides = [
-            { image: '/img/snake1.jpg' },
-            { image: '/img/snake2.jpg' },
-            // { image: '/img/snake3.jpg' },
-            // { image: '/img/snake4.jpg' },
-            // { image: '/img/snake5.jpg' },
-            // { image: '/img/snake6.jpg' }
+            { image: '/img/snake1.jpg', text: 'Mojave Rattlesnake'},
+            { image: '/img/snake2.jpg', text: 'Black Tail Rattlesnake'},
+            { image: '/img/Gila Monster.jpg', text: 'Gila Monster' },
+            // { image: '/img/Gila Monsters.jpg', text: 'Gila Monsters' },
+            // { image: '/img/Gila Monsters.jpg', text: 'Gila Monsters' },
         ];
     });

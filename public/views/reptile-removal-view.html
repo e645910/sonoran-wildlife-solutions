@@ -1,32 +1,49 @@
 <div class="reptile-container">
     <div class="reptile-image">
-        <uib-carousel interval="myInterval" no-wrap="noWrapSlides">
+        <uib-carousel interval="myInterval">
             <uib-slide ng-repeat="slide in slides" active="slide.active">
                 <img class="img-responsive" ng-src="{{slide.image}}">
                 <div class="carousel-caption">
-                    <h4>{{slide.text}}</h4>
+                    <h2>{{slide.name}}</h2>
+                    <h3>{{slide.text}}</h3>
                 </div>
             </uib-slide>
         </uib-carousel>
         <a class="btn btn-primary" id="reptile-button" href="#/views/main-view.html" role="button">Home</a>
     </div>
-    <div class="banner-container ">
-        <p>Snakes &nbsp;&nbsp;&bull;&nbsp;&nbsp; Lizards &nbsp;&nbsp;&bull;&nbsp;&nbsp; Gila Monsters &nbsp;&nbsp;&bull;&nbsp;&nbsp; Toads</p>
-        <div class="traveler ">
-            <div class="bouncer ">
-                <!-- -->
-            </div>
-            <div class="scroll-text ">
-                <p>SCROLL FOR MORE</p>
-            </div>
+</div>
+<div class="banner-container ">
+    <p>Snakes &nbsp;&nbsp;&bull;&nbsp;&nbsp; Lizards &nbsp;&nbsp;&bull;&nbsp;&nbsp; Gila Monsters &nbsp;&nbsp;&bull;&nbsp;&nbsp; Toads</p>
+    <div class="traveler ">
+        <div class="bouncer ">
+            <!-- -->
+        </div>
+        <div class="scroll-text ">
+            <p>SCROLL FOR MORE</p>
         </div>
     </div>
-    <div class="hero-container ">
-        <div class="image-wrapper2 ">
+</div>
+<div class="services-container">
+    <div class="reptile-services">
+        <h4>At SONORAN WILDLIFE SOLUTIONS, we are experienced in snake removal of any kind.  We also offer services in snake management and snake control.  If you have a snake in your home, please call us day or night (520-229-7976) and we will remove it.  If you are concerned about snakes getting in your yard or on your porches, call us for an inspection and an estimate of the work needed to exclude them.  In addition, we remove lizards, particularly Gila Monsters (which have a venomous bite).
+    </h4>
+        <h4>Animal control (wildlife control and removal) benefits both humans and wildlife, allowing us to live together in our desert habitat.  SONORAN WILDLIFE SOLUTIONS offers snake removal and snake control services, and Gila Monster removal in northwest Tucson,  Oro Valley,  Dove Mountain, Catalina, SaddleBrooke, and the surrounding areas.</h4>
+        <h4>We offer the following services:</h4>
+        <ul class="service-list">
+            <li>immediate snake or Gila Monster removal and relocation</li>
+            <li>snake inspections on your property</li>
+            <li>"snakeproofing" of outdoor areas</li>
+            <li>property inspections and identification of needed landscape or habitat modifications</li>
+            <li>suggestions on how to make your property less attractive to snakes</li>
+            <li>information and educational presentations</li>
+        </ul>
+        <div class="address-container">
+            <hr>
             <p>Sonoran Wildlife Solutions</p>
             <p>520-229-7976</p>
             <p>sonoranwildlifesolutions@gmail.com</p>
-            <scan>LICENSED BY ARIZONA GAME AND FISH</scan>
+            <hr>
         </div>
+        <scan>LICENSED BY ARIZONA GAME AND FISH</scan>
     </div>
 </div>

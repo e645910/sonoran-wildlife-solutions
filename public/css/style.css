@@ -309,6 +309,23 @@ a {
     /*border: 2px solid blue;*/
 }
 
+.main-address {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 20%;
+    height: 20%;
+    /*border: 2px solid red;*/
+}
+
+.main-address p {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 14px;
+}
+
 .image-wrapper2 p {
     text-align: center;
     font-size: 16px;
@@ -399,7 +416,7 @@ a {
     list-style-position: inside;
 }
 
-.address-container {
+.reptile-address {
     position: absolute;
     top: 50%;
     right: 5%;
@@ -408,7 +425,7 @@ a {
     /*border: 2px solid red;*/
 }
 
-.address-container p {
+.reptile-address p {
     text-align: center;
     font-size: 16px;
     font-style: italic;

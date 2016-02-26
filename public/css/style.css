@@ -310,7 +310,7 @@ a {
 .main-address {
     position: absolute;
     top: 57%;
-    right: 5%;
+    left: 26%;
     width: 30%;
     height: 20%;
     /*border: 2px solid red;*/
@@ -326,7 +326,7 @@ a {
 
 .image-wrapper2 span {
     position: absolute;
-    right: 5%;
+    left: 25%;
     bottom: 5%;
     font-size: 16px;
     font-style: italic;

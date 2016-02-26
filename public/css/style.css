@@ -113,6 +113,10 @@ a {
     display: block;
 }
 
+.dropdown-menu {
+    margin-top: 0;
+}
+
 .dropdown-menu > li > a:hover {
     background-color: #38d;
     background-image: none;

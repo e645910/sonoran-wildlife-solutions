@@ -311,6 +311,7 @@ a {
     position: absolute;
     top: 57%;
     left: 26%;
+    padding: 1%;
     width: 30%;
     height: 20%;
     /*border: 2px solid red;*/
@@ -327,7 +328,7 @@ a {
 .image-wrapper2 span {
     position: absolute;
     left: 25%;
-    bottom: 5%;
+    bottom: 4%;
     font-size: 16px;
     font-style: italic;
     font-weight: bold;

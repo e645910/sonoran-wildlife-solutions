@@ -298,23 +298,23 @@ a {
 }
 
 .carousel-caption {
-    color: #f88017;
+    color: #f81;
 }
 
 .carousel-caption h1 {
-    color: brown;
+    color: #933;
 }
 
 .carousel-caption h2 {
     font-weight: bold;
     color: #000;
-    background: #f7e3de;
+    background: #fdd;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 .carousel-indicators .active {
-    background-color: brown;
+    background-color: #933;
 }
 
 
@@ -384,7 +384,14 @@ a {
     bottom: 5%;
     right: 10%;
     color: #38d !important;
-    background-color: #f7e3de;
+    background: #fff;
+    opacity: .6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#reptile-button:hover {
+    font-weight: bold;
+    background: #fcc;
 }
 
 .services-container {

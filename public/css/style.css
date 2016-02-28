@@ -5,6 +5,8 @@ html {
 body {
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     background: #f7e3de;
 }
@@ -137,7 +139,7 @@ a {
 .vision label {
     font-size: 28px;
     font-weight: normal;
-    margin: 1% 0 2% 34%;
+    margin: .5% 0 1% 34%;
     letter-spacing: 8px;
     /*border: 2px solid black;*/
 }
@@ -145,7 +147,7 @@ a {
 .vision p {
     width: 68%;
     height: 30%;
-    margin-left: 25%;
+    margin: .5% 0 0 25%;
     font-size: 30px;
     letter-spacing: 1px;
     /*border: 2px solid red;*/

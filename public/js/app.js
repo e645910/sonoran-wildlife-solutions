@@ -6,15 +6,15 @@ angular.module('sws', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
                 controller: 'mainController'
             })
             .when('/reptiles', {
-                templateUrl: 'views/reptile-removal-view.html',
+                templateUrl: 'views/animal-removal/reptile-view.html',
                 controller: 'reptileController'
             })
             .when('/education', {
-                templateUrl: 'views/education-view.html',
+                templateUrl: 'views/education/education-view.html',
                 controller: 'educationController'
             })
             .when('/hiking', {
-                templateUrl: 'views/hiking-view.html',
+                templateUrl: 'views/hiking/hiking-view.html',
                 controller: 'hikingController'
             })
 

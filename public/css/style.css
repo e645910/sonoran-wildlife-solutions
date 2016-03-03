@@ -241,7 +241,7 @@ a {
     animation-duration: 4.2s;
 }
 
-.scroll-text p {
+.bouncer-text p {
     position: relative;
     bottom: .5%;
     width: 100%;
@@ -288,7 +288,7 @@ a {
 }
 
 .carousel .item {
-    transition: all 1.5s ease-in-out;
+    transition: all 1.8s ease-in-out;
 }
 
 .carousel-inner > .item > img {

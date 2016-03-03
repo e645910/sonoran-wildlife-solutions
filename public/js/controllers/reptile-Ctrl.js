@@ -1,6 +1,6 @@
 angular.module('sws')
     .controller('reptileController', function($scope, $location, $log) {
-        $scope.myInterval = 5000;
+        $scope.myIntervals = 9000;
         $scope.slides = [
             { image: '/img/snake1.jpg', name: 'This is a Mojave rattlesnake.', text: 'They are both aggressive and fast--a deadly combination.'},
             { image: '/img/snake2.jpg', name: 'Black Tail Rattlesnake', text: 'The Black-tailed is generally considered one of the less aggressive rattlesnakes, but is still a dangerous snake.'},

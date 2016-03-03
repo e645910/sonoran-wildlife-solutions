@@ -1,6 +1,6 @@
 <div class="reptile-container">
     <div class="reptile-image">
-        <uib-carousel interval="myIntervals">
+        <uib-carousel interval="myIntervals" no-pause="true">
             <uib-slide ng-repeat="slide in slides" active="slide.active">
                 <img class="img-responsive" ng-src="{{slide.image}}">
                 <div class="carousel-caption">

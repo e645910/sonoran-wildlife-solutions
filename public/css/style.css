@@ -369,19 +369,19 @@ a {
 
 /* ----------- Reptiles view -------------*/
 
-.reptile-container {
+.animal-removal-container {
     width: 100%;
     height: 100%;
     /*border: 2px solid red;*/
 }
 
-.reptile-image {
+.animal-removal-image {
     position: absolute;
     width: 100%;
     height: 90%;
 }
 
-#reptile-button {
+#animal-removal-button {
     position: absolute;
     bottom: 5%;
     right: 10%;
@@ -391,7 +391,7 @@ a {
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-#reptile-button:hover {
+#animal-removal-button:hover {
     font-weight: bold;
     background: #fcc;
 }
@@ -409,7 +409,7 @@ a {
     /*border: 2px solid red;*/
 }
 
-.reptile-services {
+.animal-removal-services {
     width: 100%;
     height: 100%;
     padding: 2%;
@@ -421,8 +421,10 @@ a {
     /*border: 2px solid blue;*/
 }
 
-.reptile-services span {
-    float: right;
+.animal-removal-services span {
+    position: absolute;
+    top: 85%;
+    right: 5%;
     font-size: 18px;
     font-style: italic;
     font-weight: bold;

@@ -1,5 +1,5 @@
 angular.module('sws')
-    .controller('mainController', function($scope, $log) {
+    .controller('mainController', function($scope) {
         $scope.myInterval = 5000;
         $scope.slides = [
             { image: '/img/don1.jpg' },

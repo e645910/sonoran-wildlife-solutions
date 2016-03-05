@@ -58,7 +58,7 @@ a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    *behavior: url('css/assets/boxsizing.htc');
+    *behavior: url('css/assets/boxsizing.htc'); /* For IE7 and earlier */
     /*border: 2px solid black;*/
 }
 
@@ -92,7 +92,7 @@ a {
     position: absolute;
     top: 1%;
     right: 2%;
-    width: 40%;
+    width: 44%;
     height: 100%;
     /*border: 2px solid black;*/
 }
@@ -107,8 +107,10 @@ a {
 
 .btn {
     font-size: 18px;
-    color: #f88017;
-    background: transparent;
+    font-weight: bold;
+    color: #f00;
+    opacity: .6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 .btn-group:hover>.dropdown-menu {
@@ -174,7 +176,7 @@ a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    *behavior: url('css/assets/boxsizing.htc');
+    *behavior: url('css/assets/boxsizing.htc'); /* For IE7 and earlier */
     /*border: 2px solid red;*/
 }
 
@@ -264,7 +266,7 @@ a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    *behavior: url('css/assets/boxsizing.htc');
+    *behavior: url('css/assets/boxsizing.htc'); /* For IE7 and earlier */
     /*border: 2px solid red;*/
 }
 
@@ -367,7 +369,7 @@ a {
 }
 
 
-/* ----------- Reptiles view -------------*/
+/* ----- animal removal views -----*/
 
 .animal-removal-container {
     width: 100%;
@@ -381,19 +383,10 @@ a {
     height: 90%;
 }
 
-#animal-removal-button {
+#home-button {
     position: absolute;
     bottom: 5%;
     right: 10%;
-    color: #38d !important;
-    background: #fff;
-    opacity: .6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
-#animal-removal-button:hover {
-    font-weight: bold;
-    background: #fcc;
 }
 
 .services-container {
@@ -405,7 +398,7 @@ a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    *behavior: url('css/assets/boxsizing.htc');
+    *behavior: url('css/assets/boxsizing.htc'); /* For IE7 and earlier */
     /*border: 2px solid red;*/
 }
 
@@ -421,17 +414,6 @@ a {
     /*border: 2px solid blue;*/
 }
 
-.animal-removal-services span {
-    position: absolute;
-    top: 85%;
-    right: 5%;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: bold;
-    line-height: 18px;
-    /*border: 2px solid red;*/
-}
-
 .services-list {
     font-size: 18px;
     list-style-position: inside;
@@ -439,7 +421,7 @@ a {
 
 .service-address {
     position: absolute;
-    top: 45%;
+    top: 50%;
     right: 5%;
     width: 20%;
     height: 20%;
@@ -453,3 +435,23 @@ a {
     font-weight: bold;
     line-height: 14px;
 }
+
+.animal-removal-services span {
+    position: absolute;
+    top: 88%;
+    right: 5%;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 18px;
+    /*border: 2px solid red;*/
+}
+
+
+
+
+
+
+
+
+

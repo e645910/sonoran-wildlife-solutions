@@ -227,6 +227,17 @@ a {
     animation-duration: 4.8s;
 }
 
+.traveler p {
+    position: relative;
+    bottom: .5%;
+    width: 100%;
+    margin-bottom: 1%;
+    font-size: 12px;
+    color: #38d;
+    text-align: center;
+    /*border: 2px solid black;*/
+}
+
 .bouncer {
     position: relative;
     left: 49.8%;
@@ -241,17 +252,6 @@ a {
     animation-name: bounce;
     animation-iteration-count: infinite;
     animation-duration: 4.2s;
-}
-
-.bouncer-text p {
-    position: relative;
-    bottom: .5%;
-    width: 100%;
-    margin-bottom: 1%;
-    font-size: 12px;
-    color: #38d;
-    text-align: center;
-    /*border: 2px solid black;*/
 }
 
 
@@ -306,10 +306,10 @@ a {
 }
 
 .carousel-caption h1 {
-    color: #933;
+    color: #f00;
 }
 
-.carousel-caption h2 {
+.carousel-caption p, h2 {
     font-weight: bold;
     color: #000;
     background: #fdd;

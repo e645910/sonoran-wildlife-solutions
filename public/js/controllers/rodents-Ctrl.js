@@ -1,5 +1,5 @@
 angular.module('sws')
-    .controller('rodentsController', function($scope) {
+    .controller('rodentController', function($scope) {
         $scope.myIntervals = 9000;
         $scope.slides = [
             { image: '/img/rodents/packRat.jpg', name: 'Packrat', text: 'Packrats not only gnaw continually, but are notorious collectors of things, all of which they drag into their nests.', subText: 'Kissing bugs often breed in packrat nests.  when they bite you, they suck blood and leave a nasty bite that itches and often leaves a large red welt.'},

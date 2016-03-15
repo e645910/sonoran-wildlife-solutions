@@ -15,11 +15,19 @@ angular.module('sws', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
             })
             .when('/raccoons', {
                 templateUrl: 'views/animal-removal/raccoons-view.html',
-                controller: 'raccoonsController'
+                controller: 'raccoonController'
             })
             .when('/rodents', {
                 templateUrl: 'views/animal-removal/rodents-view.html',
-                controller: 'rodentsController'
+                controller: 'rodentController'
+            })
+            .when('/birds', {
+                templateUrl: 'views/animal-removal/birds-view.html',
+                controller: 'birdController'
+            })
+            .when('/domistic', {
+                templateUrl: 'views/animal-removal/domistic-view.html',
+                controller: 'domisticController'
             })
             .when('/education', {
                 templateUrl: 'views/education/education-view.html',

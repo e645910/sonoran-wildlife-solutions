@@ -1,5 +1,5 @@
 angular.module('sws')
-    .controller('raccoonsController', function($scope) {
+    .controller('raccoonController', function($scope) {
         $scope.myIntervals = 9000;
         $scope.slides = [
             { image: '/img/raccoons/ringtail.jpg', name: 'Ringtail Cat', text: "Ringtail cats are arizona's state mammal.  they are curious, and they look so cute that you might be tempted to pet them...but don't!  their bite is worse than their bark."},

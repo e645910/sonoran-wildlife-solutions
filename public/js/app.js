@@ -25,9 +25,9 @@ angular.module('sws', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
                 templateUrl: 'views/animal-removal/birds-view.html',
                 controller: 'birdController'
             })
-            .when('/domistic', {
-                templateUrl: 'views/animal-removal/domistic-view.html',
-                controller: 'domisticController'
+            .when('/notRemoved', {
+                templateUrl: 'views/animal-removal/notRemoved-view.html',
+                controller: 'notRemovedController'
             })
             .when('/education', {
                 templateUrl: 'views/education/education-view.html',

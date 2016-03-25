@@ -11,14 +11,12 @@ body {
     height: 100%;
     margin: 0;
     font: small-caps 100% 'Lucida Bright', Georgia, serif;
+    font-size: 1em;
     overflow-x: hidden;
     background: #f7e3de;
 }
 
-h1,
-h2,
-h3,
-h4,
+
 p,
 ul {
     margin: 0;
@@ -29,6 +27,8 @@ h1,
 h2,
 h3,
 h4 {
+    margin: 0;
+    padding: 0;
     font-size: inherit;
 }
 
@@ -85,7 +85,7 @@ a {
     top: 20%;
     left: 18%;
     width: 3%;
-    height: 3vw;
+    height: 52%;
     z-index: 10;
     background: url('/img/email.png') no-repeat;
     -webkit-background-size: cover; /* Safari 3.0 */
@@ -100,7 +100,7 @@ a {
     top: 20%;
     left: 18%;
     width: 3%;
-    height: 3vw;
+    height: 52%;
     z-index: 10;
     background: url('/img/email-hover.png') no-repeat;
     -webkit-background-size: cover;
@@ -128,8 +128,7 @@ a {
 }
 
 .btn {
-    font-size: 18px;
-    font-size: 1.25vw;
+    font-size: 1.7em;
     font-weight: bold;
     color: #f00;
     opacity: .6;
@@ -182,18 +181,16 @@ a {
 .vision label {
     width: 100%;
     margin-bottom: 1%; 
-    font-size: 28px;
-    font-size: 1.94vw;
+    font-size: 2.4em;
     font-weight: normal;
     text-align: center;
-    letter-spacing: 8px;
+    letter-spacing: .5em;
     /*border: 2px solid black;*/
 }
 
 .vision p {
-    font-size: 30px;
-    font-size: 2.08vw;
-    letter-spacing: .5px;
+    font-size: 2.4em;
+    letter-spacing: .1em;
     /*border: 2px solid red;*/
 }
 
@@ -202,8 +199,7 @@ a {
 }
 
 .vision-part2 {
-    font-size: 25px !important;
-    font-size: 1.74vw !important;
+    font-size: 2.2em !important;
     /*text-align: center;*/
 }
 
@@ -220,8 +216,7 @@ a {
 }
 
 .banner-container p {
-    font-size: 25px;
-    font-size: 1.74vw;
+    font-size: 2.3em;
     text-align: center;
     /*border: 2px solid blue;*/
 }
@@ -238,7 +233,7 @@ a {
         -webkit-animation-timing-function: ease-out;
     }
     50% {
-        bottom: 20px;
+        bottom: 2em;
         -webkit-animation-timing-function: ease-in;
     }
 }
@@ -253,15 +248,14 @@ a {
         animation-timing-function: ease-out;
     }
     50% {
-        bottom: 20px;
+        bottom: 2em;
         animation-timing-function: ease-in;
     }
 }
 
 .stage p {
     margin: 0 auto;
-    font-size: 12px;
-    font-size: .83vw;
+    font-size: 1.2em;
     color: #38d;
     /*border: 2px solid #666;*/
 }
@@ -309,7 +303,7 @@ a {
     position: absolute;
     top: 99.9%;
     width: 100%;
-    height: 400px;
+    height: 35em;
     overflow: hidden;
     /*border: 2px solid red;*/
 }
@@ -317,7 +311,7 @@ a {
 .image-wrapper1 {
     width: 30%;
     height: 100%;
-    z-index: 99;
+    z-index: 9;
     /*border: 2px solid black;*/
 }
 
@@ -355,9 +349,14 @@ a {
     height: 100%;
 }
 
-.carousel-caption p {
-    font-size: 21.6px;
-    font-size: 1.5vw;
+.carousel-caption h1 {
+    font-size: 4em;
+    color: #f00;
+}
+
+.carousel-caption h2 {
+    font-size: 2em;
+    font-weight: bold;
     color: #000;
     background: #f7e3de;
     opacity: 0.6;
@@ -365,16 +364,8 @@ a {
     /* For IE8 and earlier */
 }
 
-.carousel-caption h1 {
-    font-size: 43.2px;
-    font-size: 3vw;
-    color: #f00;
-}
-
-.carousel-caption h2 {
-    font-size: 21.6px;
-    font-size: 1.5vw;
-    font-weight: bold;
+.carousel-caption p {
+    font-size: 1.5em;
     color: #000;
     background: #f7e3de;
     opacity: 0.6;
@@ -405,8 +396,7 @@ a {
 }
 
 .image-wrapper2 p {
-    font-size: 22px;
-    font-size: 1.53vw;
+    font-size: 2em;
     font-weight: bold;
     /*border: 2px solid green;*/
 }
@@ -415,7 +405,6 @@ a {
     position: absolute;
     top: 57%;
     left: 26%;
-    padding: .5%;
     width: 32%;
     height: 20%;
     /*border: 2px solid red;*/
@@ -423,11 +412,10 @@ a {
 
 .main-address p {
     text-align: center;
-    font-size: 16px;
-    font-size: 1.11vw;
+    font-size: 1.5em;
     font-style: italic;
     font-weight: bold;
-    line-height: 14px;
+    line-height: 1em;
 }
 
 .image-wrapper2 p {
@@ -438,11 +426,10 @@ a {
     position: absolute;
     left: 25%;
     bottom: 4%;
-    font-size: 16px;
-    font-size: 1.11vw;
+    font-size: 2em;
     font-style: italic;
     font-weight: bold;
-    line-height: 14px;
+    line-height: .5em;
     /*border: 2px solid red;*/
 }
 
@@ -471,7 +458,7 @@ a {
     position: absolute;
     top: 99.9%;
     width: 100%;
-    height: 400px;
+    height: 43em;
     overflow: hidden;
     /*border: 2px solid red;*/
 }
@@ -490,17 +477,12 @@ a {
 
 .animal-removal-services p {
     padding: 1% 1% .0 1%;
-    font-size: 22px;
-    font-size: 1.53vw;
+    font-size: 2.1em;
 }
 
-.animal-removal-services li {
+.services-list li {
     margin: .5% 0 .5% 3%;
-}
-
-.services-list {
-    font-size: 18px;
-    font-size: 1vw;
+    font-size: 1.5em;
     list-style-position: inside;
 }
 
@@ -534,20 +516,18 @@ a {
 
 .no-removal-policy label {
     padding: 1%;
-    font-size: 28px;
-    font-size: 1.94vw;
+    font-size: 3em;
     font-weight: normal;
-    letter-spacing: 6px;
+    letter-spacing: .1em;
 }
 
 .no-removal-policy p {
     margin: 0 5% 0 3%;
-    font-size: 16px;
-    font-size: 1.3vw;
+    font-size: 2em;
     font-style: italic;
     font-weight: 300;
-    line-height: 25px;
-    letter-spacing: 2px;
+    line-height: 1.3em;
+    letter-spacing: .1em;
     /*border: 2px solid green;*/
 }
 
@@ -565,21 +545,19 @@ a {
 
 .service-address p {
     text-align: center;
-    font-size: 16px;
-    font-size: 1.11vw;
+    font-size: 1.5em;
     font-style: italic;
     font-weight: bold;
-    line-height: 14px;
+    line-height: 1em;
 }
 
 .animal-removal-services span {
     position: absolute;
     top: 88%;
     right: 5%;
-    font-size: 18px;
-    font-size: 1.25vw;
+    font-size: 2em;
     font-style: italic;
     font-weight: bold;
-    line-height: 18px;
+    line-height: 1em;
     /*border: 2px solid red;*/
 }

@@ -1,5 +1,5 @@
 angular.module('sws', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
-    .config(function($routeProvider) {
+    .config(function($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: 'views/main-view.html',
@@ -41,4 +41,5 @@ angular.module('sws', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
         .otherwise({
             redirectTo: '/'
         });
+        $locationProvider.html5Mode(true);
     });

@@ -1,0 +1,6 @@
+https://sonoranwildlifesolutions.herokuapp.com/views/animal-removal/bat-view.html
+https://sonoranwildlifesolutions.herokuapp.com/views/animal-removal/reptile-view.html
+https://sonoranwildlifesolutions.herokuapp.com/views/animal-removal/raccoons-view.html
+https://sonoranwildlifesolutions.herokuapp.com/views/animal-removal/rodents-view.html
+https://sonoranwildlifesolutions.herokuapp.com/views/animal-removal/birds-view.html
+https://sonoranwildlifesolutions.herokuapp.com/views/animal-removal/notRemoved-view.html

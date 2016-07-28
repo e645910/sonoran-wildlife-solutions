@@ -5,14 +5,14 @@ angular.module('sws', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
                 templateUrl: 'views/main-view.html',
                 controller: 'mainController'
             })
-            .when('/reptile-control', {
-                templateUrl: 'views/animal-removal/reptile-view.html',
-                controller: 'reptileController'
-            }) 
             .when('/bat-control', {
                 templateUrl: 'views/animal-removal/bat-view.html',
                 controller: 'batController'
             })
+            .when('/reptile-control', {
+                templateUrl: 'views/animal-removal/reptile-view.html',
+                controller: 'reptileController'
+            }) 
             .when('/raccoon-control', {
                 templateUrl: 'views/animal-removal/raccoons-view.html',
                 controller: 'raccoonController'
